@@ -92,3 +92,5 @@ function antara($string, $start, $end){
     $len = strpos($string, $end, $ini) - $ini;
     return substr($string, $ini, $len);
 }
+
+//DEMO : https://ecek2.vercel.app/p3.php
